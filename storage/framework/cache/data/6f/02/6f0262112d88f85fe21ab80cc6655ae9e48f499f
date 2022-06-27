@@ -1,0 +1,48 @@
+9999999999s:2224:"<div class="d-md-flex d-lg-block">
+    <div class="mb-5 mr-md-7 mr-lg-0">
+        <h4 class="h6 mb-4 font-weight-bold">Need My WorldTal Help?</h4>
+        <a href="tel:(+84) 666-888-999">
+            <div class="d-flex align-items-center">
+                <div class="mr-4">
+                    <i class="fa fa-phone font-size-50" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <div class="mb-2 h6 font-weight-normal text-gray-1">Got Questions ? Call us 24/7</div>
+                    <small class="d-block font-size-16 font-weight-normal text-primary">Call Us: <span class="text-primary font-weight-semi-bold">+971 54 786 9294</span></small>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="ml-md-6 ml-lg-0">
+        <div class="mb-4">
+            <h4 class="h6 font-weight-bold mb-2 font-size-17">Contact Info</h4>
+            <address class="pr-4">
+                    <span class="mb-2 h6 font-weight-normal text-gray-1">
+                        Address Goes here
+                    </span>
+            </address>
+        </div>
+        <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-2">
+                <a class="btn btn-icon btn-social btn-bg-transparent" href="https://www.facebook.com/worldtaltours">
+                    <span class="fa fa-facebook-f btn-icon__inner"></span>
+                </a>
+            </li>
+            <!--<li class="list-inline-item mr-2">
+                <a class="btn btn-icon btn-social btn-bg-transparent" href="#">
+                    <span class="fa fa-twitter  btn-icon__inner"></span>
+                </a>
+            </li>-->
+            <li class="list-inline-item mr-2">
+                <a class="btn btn-icon btn-social btn-bg-transparent" href="https://www.instagram.com/worldtal22/">
+                    <span class="fa fa-instagram btn-icon__inner"></span>
+                </a>
+            </li>
+            <!--<li class="list-inline-item mr-2">
+                <a class="btn btn-icon btn-social btn-bg-transparent" href="#">
+                    <span class="fa fa-linkedin btn-icon__inner"></span>
+                </a>
+            </li>-->
+        </ul>
+    </div>
+</div>";

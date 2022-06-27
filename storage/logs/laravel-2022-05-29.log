@@ -1,0 +1,1726 @@
+[2022-05-29 13:07:17] production.ERROR: file_put_contents(C:\xampp\htdocs\mytravel\storage\framework/cache/data/d9/6a/d96ac6132c7af89aa1b66f1b90b5bc8251ce8d92): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(C:\\xampp\\htdocs\\mytravel\\storage\\framework/cache/data/d9/6a/d96ac6132c7af89aa1b66f1b90b5bc8251ce8d92): Failed to open stream: No such file or directory at C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:187)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', 'C:\\\\xampp\\\\htdocs...', 187)
+#1 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(187): file_put_contents('C:\\\\xampp\\\\htdocs...', '9999999999s:3:\"...', 2)
+#2 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(77): Illuminate\\Filesystem\\Filesystem->put('C:\\\\xampp\\\\htdocs...', '9999999999s:3:\"...', true)
+#3 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(194): Illuminate\\Cache\\FileStore->put('setting_email_p...', '587', 0)
+#4 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(357): Illuminate\\Cache\\FileStore->forever('setting_email_p...', '587')
+#5 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(420): Illuminate\\Cache\\Repository->forever('setting_email_p...', '587')
+#6 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\CacheManager.php(418): Illuminate\\Cache\\Repository->rememberForever('setting_email_p...', Object(Closure))
+#7 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Cache\\CacheManager->__call('rememberForever', Array)
+#8 C:\\xampp\\htdocs\\mytravel\\modules\\Core\\Models\\Settings.php(33): Illuminate\\Support\\Facades\\Facade::__callStatic('rememberForever', Array)
+#9 C:\\xampp\\htdocs\\mytravel\\app\\Helpers\\AppHelper.php(18): Modules\\Core\\Models\\Settings::item('email_port', '')
+#10 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(116): setting_item('email_port')
+#11 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(57): App\\Providers\\AppServiceProvider->initConfigFromDB()
+#12 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\AppServiceProvider->boot(Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(614): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(914): Illuminate\\Container\\Container->call(Array)
+#18 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\AppServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\AppServiceProvider), 36)
+#20 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2022-05-29 13:07:17] production.ERROR: file_put_contents(C:\xampp\htdocs\mytravel\storage\framework/cache/data/3d/e7/3de75ccf93836008511e6ca086ea25e2f8d09dba): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(C:\\xampp\\htdocs\\mytravel\\storage\\framework/cache/data/3d/e7/3de75ccf93836008511e6ca086ea25e2f8d09dba): Failed to open stream: No such file or directory at C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:187)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', 'C:\\\\xampp\\\\htdocs...', 187)
+#1 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(187): file_put_contents('C:\\\\xampp\\\\htdocs...', '9999999999s:0:\"...', 2)
+#2 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(77): Illuminate\\Filesystem\\Filesystem->put('C:\\\\xampp\\\\htdocs...', '9999999999s:0:\"...', true)
+#3 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(194): Illuminate\\Cache\\FileStore->put('setting_email_p...', '', 0)
+#4 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(357): Illuminate\\Cache\\FileStore->forever('setting_email_p...', '')
+#5 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(420): Illuminate\\Cache\\Repository->forever('setting_email_p...', '')
+#6 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\CacheManager.php(418): Illuminate\\Cache\\Repository->rememberForever('setting_email_p...', Object(Closure))
+#7 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Cache\\CacheManager->__call('rememberForever', Array)
+#8 C:\\xampp\\htdocs\\mytravel\\modules\\Core\\Models\\Settings.php(33): Illuminate\\Support\\Facades\\Facade::__callStatic('rememberForever', Array)
+#9 C:\\xampp\\htdocs\\mytravel\\app\\Helpers\\AppHelper.php(18): Modules\\Core\\Models\\Settings::item('email_password', '')
+#10 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(125): setting_item('email_password')
+#11 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(57): App\\Providers\\AppServiceProvider->initConfigFromDB()
+#12 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\AppServiceProvider->boot(Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(614): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(914): Illuminate\\Container\\Container->call(Array)
+#18 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\AppServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\AppServiceProvider), 36)
+#20 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2022-05-29 13:07:17] production.ERROR: file_put_contents(C:\xampp\htdocs\mytravel\storage\framework/cache/data/3d/e7/3de75ccf93836008511e6ca086ea25e2f8d09dba): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(C:\\xampp\\htdocs\\mytravel\\storage\\framework/cache/data/3d/e7/3de75ccf93836008511e6ca086ea25e2f8d09dba): Failed to open stream: No such file or directory at C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:187)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', 'C:\\\\xampp\\\\htdocs...', 187)
+#1 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(187): file_put_contents('C:\\\\xampp\\\\htdocs...', '9999999999s:0:\"...', 2)
+#2 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(77): Illuminate\\Filesystem\\Filesystem->put('C:\\\\xampp\\\\htdocs...', '9999999999s:0:\"...', true)
+#3 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(194): Illuminate\\Cache\\FileStore->put('setting_email_p...', '', 0)
+#4 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(357): Illuminate\\Cache\\FileStore->forever('setting_email_p...', '')
+#5 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(420): Illuminate\\Cache\\Repository->forever('setting_email_p...', '')
+#6 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\CacheManager.php(418): Illuminate\\Cache\\Repository->rememberForever('setting_email_p...', Object(Closure))
+#7 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Cache\\CacheManager->__call('rememberForever', Array)
+#8 C:\\xampp\\htdocs\\mytravel\\modules\\Core\\Models\\Settings.php(33): Illuminate\\Support\\Facades\\Facade::__callStatic('rememberForever', Array)
+#9 C:\\xampp\\htdocs\\mytravel\\app\\Helpers\\AppHelper.php(18): Modules\\Core\\Models\\Settings::item('email_password', '')
+#10 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(125): setting_item('email_password')
+#11 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(57): App\\Providers\\AppServiceProvider->initConfigFromDB()
+#12 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\AppServiceProvider->boot(Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(614): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(914): Illuminate\\Container\\Container->call(Array)
+#18 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\AppServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\AppServiceProvider), 36)
+#20 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2022-05-29 13:07:17] production.ERROR: file_put_contents(C:\xampp\htdocs\mytravel\storage\framework/cache/data/8e/c0/8ec049d4f11608864d0cd13c3460056b40774915): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(C:\\xampp\\htdocs\\mytravel\\storage\\framework/cache/data/8e/c0/8ec049d4f11608864d0cd13c3460056b40774915): Failed to open stream: No such file or directory at C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:187)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', 'C:\\\\xampp\\\\htdocs...', 187)
+#1 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(187): file_put_contents('C:\\\\xampp\\\\htdocs...', '9999999999s:0:\"...', 2)
+#2 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(77): Illuminate\\Filesystem\\Filesystem->put('C:\\\\xampp\\\\htdocs...', '9999999999s:0:\"...', true)
+#3 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(194): Illuminate\\Cache\\FileStore->put('setting_tour_di...', '', 0)
+#4 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(357): Illuminate\\Cache\\FileStore->forever('setting_tour_di...', '')
+#5 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(420): Illuminate\\Cache\\Repository->forever('setting_tour_di...', '')
+#6 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\CacheManager.php(418): Illuminate\\Cache\\Repository->rememberForever('setting_tour_di...', Object(Closure))
+#7 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Cache\\CacheManager->__call('rememberForever', Array)
+#8 C:\\xampp\\htdocs\\mytravel\\modules\\Core\\Models\\Settings.php(33): Illuminate\\Support\\Facades\\Facade::__callStatic('rememberForever', Array)
+#9 C:\\xampp\\htdocs\\mytravel\\app\\Helpers\\AppHelper.php(18): Modules\\Core\\Models\\Settings::item('tour_disable', '')
+#10 C:\\xampp\\htdocs\\mytravel\\modules\\Tour\\Models\\Tour.php(920): setting_item('tour_disable')
+#11 C:\\xampp\\htdocs\\mytravel\\modules\\Tour\\ModuleProvider.php(15): Modules\\Tour\\Models\\Tour::isEnable()
+#12 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Modules\\Tour\\ModuleProvider->boot(Object(Modules\\Core\\Helpers\\SitemapHelper))
+#13 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(614): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(914): Illuminate\\Container\\Container->call(Array)
+#18 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(Modules\\Tour\\ModuleProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(Modules\\Tour\\ModuleProvider), 90)
+#20 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2022-05-29 13:23:44] production.DEBUG: Message-ID: <f41b9a39a8fd0d888f6e3582c03d77f9@127.0.0.1>
+Date: Sun, 29 May 2022 13:23:44 +0000
+Subject: [OneClickSolution] Verify Register
+From: OneClickSolution <contact@OneClickSolution.com>
+To: rahul.prpce@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600' type='text/css' media='all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5291fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media  screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class="b-email-wrap">
+            <div class="" style="">
+    <div class="b-container">
+        <div class="b-header">
+                        <h1 class="site-title" style="text-align: center">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+                <div class="b-container">
+        <div class="b-panel">
+            
+            <h1>Hello!</h1>
+            <p>Please click the button to verify your email address!</p>
+            <p style="text-align: center"><a style="border-radius: 3px;
+                color: #fff;
+                display: inline-block;
+                text-decoration: none;
+                background-color: #3490dc;
+                border-top: 10px solid #3490dc;
+                border-right: 18px solid #3490dc;
+                border-bottom: 10px solid #3490dc;
+                border-left: 18px solid #3490dc;" href="http://127.0.0.1:8000/email/verify/5/a6a28a7a92168268c2eaa07473fa9c5adfd85559?expires=1653834224&signature=ab839826668b99a4684aed2cfa8d025c2d184ace11c48acebfffb76b73dab65f">Verify Email Address</a></p>
+            <p>If you did not create account, no further action is required.</p>
+            <p>Regards,<br>OneClickSolution</p>
+        </div>
+    </div>
+
+            <div class="b-footer" style="margin-top: 0px;">
+    <div class="b-container">
+        <p class="" style="text-align: center">&copy; 2021 My Travel. All rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2022-05-29 13:23:44] production.DEBUG: Message-ID: <b847e5dfd4007774dcea54749830c2bf@127.0.0.1>
+Date: Sun, 29 May 2022 13:23:44 +0000
+Subject: Rahul Tathod has registered.
+From: OneClickSolution <contact@OneClickSolution.com>
+To: rahul.prpce@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600' type='text/css' media='all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5291fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media  screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class="b-email-wrap">
+            <div class="" style="">
+    <div class="b-container">
+        <div class="b-header">
+                        <h1 class="site-title" style="text-align: center">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+                <div class="b-container">
+        <div class="b-panel">
+            <h1 style="text-align: center">Welcome!</h1>
+                    <h3>Hello Rahul Tathod</h3>
+                    <p>Thank you for signing up with My Travel! We hope you enjoy your time with us.</p>
+                    <p>Regards,</p>
+                    <p>My Travel</p>
+        </div>
+    </div>
+
+            <div class="b-footer" style="margin-top: 0px;">
+    <div class="b-container">
+        <p class="" style="text-align: center">&copy; 2021 My Travel. All rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2022-05-29 13:23:44] production.DEBUG: Message-ID: <b1b5e1da98095616e73ec1744626732c@127.0.0.1>
+Date: Sun, 29 May 2022 13:23:44 +0000
+Subject: Rahul Tathod has registered.
+From: OneClickSolution <contact@OneClickSolution.com>
+To: contact@OneClickSolution.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600' type='text/css' media='all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5291fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media  screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class="b-email-wrap">
+            <div class="" style="">
+    <div class="b-container">
+        <div class="b-header">
+                        <h1 class="site-title" style="text-align: center">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+                <div class="b-container">
+        <div class="b-panel">
+            <h3>Hello Administrator</h3>
+                    <p>We have new registration</p>
+                    <p>Full name: Rahul Tathod</p>
+                    <p>Email: rahul.prpce@gmail.com</p>
+                    <p>Regards,</p>
+                    <p>My Travel</p>
+        </div>
+    </div>
+
+            <div class="b-footer" style="margin-top: 0px;">
+    <div class="b-container">
+        <p class="" style="text-align: center">&copy; 2021 My Travel. All rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2022-05-29 13:23:44] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Rahul Tathod has been registered",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:8000\/images\/avatar.png\" alt=\"Rahul Tathod\">",
+    "link": "http:\/\/127.0.0.1:8000\/admin\/module\/user?s=5",
+    "idNotification": "ffb27033-47b2-42f3-a872-4206c4f6762d",
+    "socket": null
+}  
+[2022-05-29 13:24:16] production.ERROR: file_put_contents(C:\xampp\htdocs\mytravel\storage\framework/cache/data/d9/6a/d96ac6132c7af89aa1b66f1b90b5bc8251ce8d92): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(C:\\xampp\\htdocs\\mytravel\\storage\\framework/cache/data/d9/6a/d96ac6132c7af89aa1b66f1b90b5bc8251ce8d92): Failed to open stream: No such file or directory at C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:187)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', 'C:\\\\xampp\\\\htdocs...', 187)
+#1 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(187): file_put_contents('C:\\\\xampp\\\\htdocs...', '9999999999s:3:\"...', 2)
+#2 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(77): Illuminate\\Filesystem\\Filesystem->put('C:\\\\xampp\\\\htdocs...', '9999999999s:3:\"...', true)
+#3 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(194): Illuminate\\Cache\\FileStore->put('setting_email_p...', '587', 0)
+#4 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(357): Illuminate\\Cache\\FileStore->forever('setting_email_p...', '587')
+#5 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(420): Illuminate\\Cache\\Repository->forever('setting_email_p...', '587')
+#6 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\CacheManager.php(418): Illuminate\\Cache\\Repository->rememberForever('setting_email_p...', Object(Closure))
+#7 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Cache\\CacheManager->__call('rememberForever', Array)
+#8 C:\\xampp\\htdocs\\mytravel\\modules\\Core\\Models\\Settings.php(33): Illuminate\\Support\\Facades\\Facade::__callStatic('rememberForever', Array)
+#9 C:\\xampp\\htdocs\\mytravel\\app\\Helpers\\AppHelper.php(18): Modules\\Core\\Models\\Settings::item('email_port', '')
+#10 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(116): setting_item('email_port')
+#11 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(57): App\\Providers\\AppServiceProvider->initConfigFromDB()
+#12 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\AppServiceProvider->boot(Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(614): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(914): Illuminate\\Container\\Container->call(Array)
+#18 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\AppServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\AppServiceProvider), 36)
+#20 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2022-05-29 13:24:33] production.DEBUG: Message-ID: <889c0d050a83531d1b426a89b05ca20a@127.0.0.1>
+Date: Sun, 29 May 2022 13:24:33 +0000
+Subject: Rahul Tathod has registered.
+From: OneClickSolution <contact@OneClickSolution.com>
+To: rahul.prpce@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600' type='text/css' media='all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5291fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media  screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class="b-email-wrap">
+            <div class="" style="">
+    <div class="b-container">
+        <div class="b-header">
+                        <h1 class="site-title" style="text-align: center">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+                <div class="b-container">
+        <div class="b-panel">
+            <h1 style="text-align: center;">Welcome!</h1>
+                            <h3>Hello Rahul Tathod</h3>
+                            <p>Thank you for signing up with My Travel! We hope you enjoy your time with us.</p>
+                            <p>Regards,</p>
+                            <p>My Travel</p>
+        </div>
+    </div>
+
+            <div class="b-footer" style="margin-top: 0px;">
+    <div class="b-container">
+        <p class="" style="text-align: center">&copy; 2021 My Travel. All rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2022-05-29 13:24:33] production.DEBUG: Message-ID: <9115afac9ce2324e7857a3cb0ce6feaf@127.0.0.1>
+Date: Sun, 29 May 2022 13:24:33 +0000
+Subject: New Vendor Registration
+From: OneClickSolution <contact@OneClickSolution.com>
+To: contact@OneClickSolution.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600' type='text/css' media='all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5291fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media  screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class="b-email-wrap">
+            <div class="" style="">
+    <div class="b-container">
+        <div class="b-header">
+                        <h1 class="site-title" style="text-align: center">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+            <div class="b-container">
+    <div class="b-panel">
+        <h3>Hello Administrator</h3>
+                            <p>An user has been registered as Vendor. Please check the information bellow:</p>
+                            <p>Full name: Rahul Tathod</p>
+                            <p>Email: rahul.prpce@gmail.com</p>
+                            <p>Registration date: 2022-05-29 13:23:44</p>
+                            <p>You can approved the request here: <a href='http://127.0.0.1:8000/admin/module/user/userUpgradeRequest'>http://127.0.0.1:8000/admin/module/user/userUpgradeRequest</a></p>
+                            <p>Regards,</p>
+                            <p>My Travel</p>
+    </div>
+</div>
+
+            <div class="b-footer" style="margin-top: 0px;">
+    <div class="b-container">
+        <p class="" style="text-align: center">&copy; 2021 My Travel. All rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2022-05-29 13:24:33] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Rahul Tathod has requested to become a vendor",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:8000\/images\/avatar.png\" alt=\"Rahul Tathod\">",
+    "link": "http:\/\/127.0.0.1:8000\/admin\/module\/user\/userUpgradeRequest",
+    "idNotification": "cd66c554-8966-4912-bf5d-05042e3d4038",
+    "socket": null
+}  
+[2022-05-29 13:25:16] production.ERROR: file_put_contents(C:\xampp\htdocs\mytravel\storage\framework/cache/data/dd/17/dd177636ebcdcc6c4fa6f35116b373260f57300c): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(C:\\xampp\\htdocs\\mytravel\\storage\\framework/cache/data/dd/17/dd177636ebcdcc6c4fa6f35116b373260f57300c): Failed to open stream: No such file or directory at C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:187)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', 'C:\\\\xampp\\\\htdocs...', 187)
+#1 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(187): file_put_contents('C:\\\\xampp\\\\htdocs...', '9999999999s:3:\"...', 2)
+#2 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(77): Illuminate\\Filesystem\\Filesystem->put('C:\\\\xampp\\\\htdocs...', '9999999999s:3:\"...', true)
+#3 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(194): Illuminate\\Cache\\FileStore->put('setting_email_d...', 'log', 0)
+#4 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(357): Illuminate\\Cache\\FileStore->forever('setting_email_d...', 'log')
+#5 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(420): Illuminate\\Cache\\Repository->forever('setting_email_d...', 'log')
+#6 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\CacheManager.php(418): Illuminate\\Cache\\Repository->rememberForever('setting_email_d...', Object(Closure))
+#7 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Cache\\CacheManager->__call('rememberForever', Array)
+#8 C:\\xampp\\htdocs\\mytravel\\modules\\Core\\Models\\Settings.php(33): Illuminate\\Support\\Facades\\Facade::__callStatic('rememberForever', Array)
+#9 C:\\xampp\\htdocs\\mytravel\\app\\Helpers\\AppHelper.php(18): Modules\\Core\\Models\\Settings::item('email_driver', '')
+#10 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(76): setting_item('email_driver')
+#11 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(57): App\\Providers\\AppServiceProvider->initConfigFromDB()
+#12 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\AppServiceProvider->boot(Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(614): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(914): Illuminate\\Container\\Container->call(Array)
+#18 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\AppServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\AppServiceProvider), 36)
+#20 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2022-05-29 13:27:16] production.ERROR: file_put_contents(C:\xampp\htdocs\mytravel\storage\framework/cache/data/20/3b/203b20e4ad7679fc5896d45a1765f105904ac468): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(C:\\xampp\\htdocs\\mytravel\\storage\\framework/cache/data/20/3b/203b20e4ad7679fc5896d45a1765f105904ac468): Failed to open stream: No such file or directory at C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:187)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', 'C:\\\\xampp\\\\htdocs...', 187)
+#1 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(187): file_put_contents('C:\\\\xampp\\\\htdocs...', '9999999999s:16:...', 2)
+#2 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(77): Illuminate\\Filesystem\\Filesystem->put('C:\\\\xampp\\\\htdocs...', '9999999999s:16:...', true)
+#3 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(194): Illuminate\\Cache\\FileStore->put('setting_email_f...', 'OneClickSolutio...', 0)
+#4 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(357): Illuminate\\Cache\\FileStore->forever('setting_email_f...', 'OneClickSolutio...')
+#5 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(420): Illuminate\\Cache\\Repository->forever('setting_email_f...', 'OneClickSolutio...')
+#6 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\CacheManager.php(418): Illuminate\\Cache\\Repository->rememberForever('setting_email_f...', Object(Closure))
+#7 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Cache\\CacheManager->__call('rememberForever', Array)
+#8 C:\\xampp\\htdocs\\mytravel\\modules\\Core\\Models\\Settings.php(33): Illuminate\\Support\\Facades\\Facade::__callStatic('rememberForever', Array)
+#9 C:\\xampp\\htdocs\\mytravel\\app\\Helpers\\AppHelper.php(18): Modules\\Core\\Models\\Settings::item('email_from_name', '')
+#10 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(67): setting_item('email_from_name')
+#11 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(57): App\\Providers\\AppServiceProvider->initConfigFromDB()
+#12 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\AppServiceProvider->boot(Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(614): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(914): Illuminate\\Container\\Container->call(Array)
+#18 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\AppServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\AppServiceProvider), 36)
+#20 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2022-05-29 13:28:28] production.DEBUG: Message-ID: <b9d62fc1efc2575bf542489e63164e18@127.0.0.1>
+Date: Sun, 29 May 2022 13:28:28 +0000
+Subject: Vendor Registration Approved
+From: OneClickSolution <contact@OneClickSolution.com>
+To: rahul.prpce@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600' type='text/css' media='all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5291fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media  screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class="b-email-wrap">
+            <div class="" style="">
+    <div class="b-container">
+        <div class="b-header">
+                        <h1 class="site-title" style="text-align: center">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+                <div class="b-container">
+        <div class="b-panel">
+            <h1>Hello Rahul</h1>
+
+            <p>You are receiving this email because we approved your vendor registration request.</p>
+            <p>You can check your dashboard here: <a href="http://127.0.0.1:8000/user/dashboard">View dashboard</a></p>
+
+            <br>
+            <p>Regards,<br>OneClickSolution</p>
+        </div>
+    </div>
+
+            <div class="b-footer" style="margin-top: 0px;">
+    <div class="b-container">
+        <p class="" style="text-align: center">&copy; 2021 My Travel. All rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2022-05-29 13:28:28] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-5] with payload:
+{
+    "message": "Your upgrade request has approved already",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:8000\/images\/avatar.png\" alt=\"Rahul Tathod\">",
+    "link": "http:\/\/127.0.0.1:8000\/user\/dashboard",
+    "idNotification": "667b6fde-c620-4755-8967-ef0e72a527dd",
+    "userId": 5,
+    "socket": null
+}  
+[2022-05-29 15:42:39] production.ERROR: file_put_contents(C:\xampp\htdocs\mytravel\storage\framework/cache/data/d9/6a/d96ac6132c7af89aa1b66f1b90b5bc8251ce8d92): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(C:\\xampp\\htdocs\\mytravel\\storage\\framework/cache/data/d9/6a/d96ac6132c7af89aa1b66f1b90b5bc8251ce8d92): Failed to open stream: No such file or directory at C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:187)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', 'C:\\\\xampp\\\\htdocs...', 187)
+#1 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(187): file_put_contents('C:\\\\xampp\\\\htdocs...', '9999999999s:3:\"...', 2)
+#2 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(77): Illuminate\\Filesystem\\Filesystem->put('C:\\\\xampp\\\\htdocs...', '9999999999s:3:\"...', true)
+#3 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(194): Illuminate\\Cache\\FileStore->put('setting_email_p...', '587', 0)
+#4 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(357): Illuminate\\Cache\\FileStore->forever('setting_email_p...', '587')
+#5 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(420): Illuminate\\Cache\\Repository->forever('setting_email_p...', '587')
+#6 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\CacheManager.php(418): Illuminate\\Cache\\Repository->rememberForever('setting_email_p...', Object(Closure))
+#7 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Cache\\CacheManager->__call('rememberForever', Array)
+#8 C:\\xampp\\htdocs\\mytravel\\modules\\Core\\Models\\Settings.php(33): Illuminate\\Support\\Facades\\Facade::__callStatic('rememberForever', Array)
+#9 C:\\xampp\\htdocs\\mytravel\\app\\Helpers\\AppHelper.php(18): Modules\\Core\\Models\\Settings::item('email_port', '')
+#10 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(116): setting_item('email_port')
+#11 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(57): App\\Providers\\AppServiceProvider->initConfigFromDB()
+#12 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\AppServiceProvider->boot(Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(614): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(914): Illuminate\\Container\\Container->call(Array)
+#18 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\AppServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\AppServiceProvider), 36)
+#20 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2022-05-29 15:43:39] production.ERROR: file_put_contents(C:\xampp\htdocs\mytravel\storage\framework/cache/data/80/e7/80e789c9686d1e1a97df9bbcf994ff4bce7d4d90): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(C:\\xampp\\htdocs\\mytravel\\storage\\framework/cache/data/80/e7/80e789c9686d1e1a97df9bbcf994ff4bce7d4d90): Failed to open stream: No such file or directory at C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php:187)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', 'C:\\\\xampp\\\\htdocs...', 187)
+#1 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(187): file_put_contents('C:\\\\xampp\\\\htdocs...', '9999999999s:3:\"...', 2)
+#2 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(77): Illuminate\\Filesystem\\Filesystem->put('C:\\\\xampp\\\\htdocs...', '9999999999s:3:\"...', true)
+#3 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\FileStore.php(194): Illuminate\\Cache\\FileStore->put('setting_email_e...', 'tls', 0)
+#4 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(357): Illuminate\\Cache\\FileStore->forever('setting_email_e...', 'tls')
+#5 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\Repository.php(420): Illuminate\\Cache\\Repository->forever('setting_email_e...', 'tls')
+#6 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cache\\CacheManager.php(418): Illuminate\\Cache\\Repository->rememberForever('setting_email_e...', Object(Closure))
+#7 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(261): Illuminate\\Cache\\CacheManager->__call('rememberForever', Array)
+#8 C:\\xampp\\htdocs\\mytravel\\modules\\Core\\Models\\Settings.php(33): Illuminate\\Support\\Facades\\Facade::__callStatic('rememberForever', Array)
+#9 C:\\xampp\\htdocs\\mytravel\\app\\Helpers\\AppHelper.php(18): Modules\\Core\\Models\\Settings::item('email_encryptio...', '')
+#10 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(119): setting_item('email_encryptio...')
+#11 C:\\xampp\\htdocs\\mytravel\\app\\Providers\\AppServiceProvider.php(57): App\\Providers\\AppServiceProvider->initConfigFromDB()
+#12 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\AppServiceProvider->boot(Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(614): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(914): Illuminate\\Container\\Container->call(Array)
+#18 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\AppServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\AppServiceProvider), 36)
+#20 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\\mytravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
