@@ -1,0 +1,34 @@
+.item-loop {
+    .icon-passenger{
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        background: url("../../../module/car/images/passenger.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .icon-baggage{
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        background: url("../../../module/car/images/baggage.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .icon-door{
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        background: url("../../../module/car/images/door.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .icon-gear{
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        background: url("../../../module/car/images/gear.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

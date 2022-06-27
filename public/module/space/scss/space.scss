@@ -1,0 +1,171 @@
+@import "../../../sass/variables";
+
+.modal-backdrop.show {
+    opacity: 0.7;
+}
+
+.bravo_wrap {
+    .bravo_search_space {
+
+        margin: 50px 0;
+
+        .bravo_form_search {
+
+        }
+        .bravo_filter {
+
+        }
+        .bravo-list-item {
+            .topbar-search {
+                .text {
+                    font-size: 24px;
+                    color: #1A2B48;
+                    font-weight: normal;
+                    margin: 0;
+                }
+            }
+            .list-item {
+                margin-top: 15px;
+                @import "loop";
+            }
+
+        }
+    }
+
+    .bravo_detail_space {
+        .bravo_banner {
+
+        }
+        .bravo_content {
+            .description {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                color: #5E6D77;
+                font-weight: 400;
+                position: relative;
+                @media(max-width: 766px){
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+                h4, strong {
+                    font-size: 16px;
+                    color: #343a40;
+                    font-weight: 500;
+                    margin-bottom: 30px;
+                    @media(max-width: 990px){
+                        margin-bottom: 10px;
+                    }
+                }
+                ul {
+                    padding-left: 25px;
+                    @media(max-width: 990px){
+                        padding-left: 15px;
+                    }
+                    li {
+                        color: #5E6D77;
+                        margin-bottom: 10px;
+                        list-style: none;
+                        &:before {
+                            content: '';
+                            border: 1px solid #5191FA;
+                            width: 8px;
+                            height: 8px;
+                            display: inline-block;
+                            border-radius: 50%;
+                            margin-right: 20px;
+                            @media(max-width: 990px){
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .location-map{
+                iframe {
+                    width: 100%;
+                }
+                #map_content{
+                    height: 450px;
+                    @media(max-width: 766px){
+                        height: 300px;
+                    }
+                }
+            }
+            .list-attributes{
+                img{
+                    max-width: 40px;
+                }
+            }
+        }
+        .bravo-list-space-related {
+
+        }
+        @import "../../booking/scss/form-book-for-single";
+        .bravo-more-book-mobile{
+            .service-review{
+                .review{
+                    position: static!important;
+                }
+            }
+        }
+    }
+
+    .bravo_search_map{
+        .list-item{
+            margin-top: 15px;
+        }
+    }
+}
+.cart-total-group{
+    border-top: 1px solid #D7DCE3;
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+    li{
+        display: flex;
+        justify-content: space-between;
+        padding: 7px 0px;
+        .label{
+            flex-grow: 1;
+            color: #1A2B48;
+            font-weight: 500;
+
+        }
+        .val{
+            flex-shrink: 0;
+        }
+        &.line-end-total{
+            border-top: 1px solid #D7DCE3;
+        }
+        &.line-new-section{
+            border-top: 1px solid #D7DCE3;
+            color: #1A2B48;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        &.line-end-total{
+            .label{
+                font-size: 16px;
+            }
+            .val{
+                color:#5191FA;
+                font-weight: 500;
+                font-size: 16px;
+            }
+        }
+    }
+}
+@import "../../tour/scss/search-map";
+.has-search-map{
+    .bravo_search_map{
+        .results_map{
+            @import "loop";
+        }
+    }
+}
